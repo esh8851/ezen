@@ -1,6 +1,6 @@
 package com.mycompany.ch04;
 
-public class For3 {
+public class For3_tr {
 
 	public static void main(String[] args) {
 
@@ -11,15 +11,14 @@ public class For3 {
 //		**********
 //		**********
 		
+//		String star = "";
 //		for(int i=1; i<=5; i++) {
-//			String star = "";
 //			for(int j=1; j<=10; j++) {
 //				star += "*";
 //			}
 //			System.out.println(star);
+//			star = "";
 //		}
-		
-		
 		
 //		(1,10번째 출력)
 //		**********
@@ -28,53 +27,20 @@ public class For3 {
 //		*        *
 //		**********
 		
+//		String star = "";
 //		for(int i=1; i<=5; i++) {
-//			String star = "";
-//			for(int j=1; j<=10; j++) {
-//				if(i == 2 && j>=2 && j<=9) {
-//					star += " ";
-//				} else if (i == 3 && j>=2 && j<=9){
-//					star += " ";
-//				} else if (i == 4 && j>=2 && j<=9){
-//					star += " ";
-//				} else {
-//					star += "*";
-//				}
-//			}
-//			System.out.println(star);
-//		}
-		
-//		for(int i=1; i<=5; i++) {
-//			String star = "";
 //			for(int j=1; j<=10; j++) {
 //				if(i == 1 || i == 5) {
 //					star += "*";
+//				} else if(j == 1 || j == 10){
+//					star += "*";
 //				} else {
-//					if(j == 1 || j == 10) {
-//						star += "*";						
-//					} else {
-//						star += " ";
-//					}
+//					star += " ";
 //				}
 //			}
 //			System.out.println(star);
+//			star = "";
 //		}
-		
-//		for(int i=1; i<=5; i++) {
-//			for(int j=1; j<=10; j++) {
-//				if(i>=2 && i<=4) {
-//					if(j>=2 && j<=9) {
-//						System.out.print(" ");
-//					} else {
-//						System.out.print("*");
-//					}
-//				} else {
-//					System.out.print("*");
-//				}
-//			}
-//			System.out.println();
-//		}
-		
 		
 //		1
 //		12
@@ -91,18 +57,18 @@ public class For3 {
 		for(int i=1; i<=10; i++) {
 			if(i == 10) {
 				for(int j=1; j<=i-1; j++) {
-					if(j%2==1) {
+					if(j % 2 == 1) {
 						System.out.print(j);
 					} else {
 						System.out.print(" ");
 					}
 				}
-				System.out.println("0");
+				System.out.print("0");
 			} else {
-				for(int j=1; j<=i; j++) {
+				for(int j=1; j<=i-1; j++) {
 					System.out.print(j);
 				}
-				System.out.println();
+				System.out.println(i);
 			}
 		}
 		
