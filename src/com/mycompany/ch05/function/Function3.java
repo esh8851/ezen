@@ -7,6 +7,7 @@ public class Function3 {
 //		세 수를 주면 최대값을 반환하는 함수
 		
 		int maxVal = max (1,3,7);
+		System.out.println(maxVal);
 		
 	}
 	
