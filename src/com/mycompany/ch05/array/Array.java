@@ -5,6 +5,7 @@ public class Array {
 	public static void main(String[] args) {
 
 //		list를 이용한 배열 선언
+		
 		int[] scoreChemistry = {100,99,98,97,96,95,94};
 		
 		int scoreChemistry2[] = {100,99,98,97,96,95,94};
