@@ -1,6 +1,6 @@
 package com.mycompany.ch05.random;
 
-public class random {
+public class Random {
 
 	public static void main(String[] args) {
 

@@ -44,8 +44,8 @@ public class Array_tr {
 		
 		int i = 0;
 		for(int a: scoreChemistry3) {
-			System.out.println(a);
 			i++;
+			System.out.println(a);
 		}
 		
 	}
