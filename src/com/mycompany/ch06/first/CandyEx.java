@@ -9,7 +9,7 @@ public class CandyEx {
 		
 		candy.eat();
 		
-		String position = Candy.position("나");
+		String position = candy.position("나");
 		System.out.println(position);
 		
 	}

@@ -11,8 +11,9 @@ public class Candy {
 		System.out.println("먹어");
 	}
 	
-	static String position(String a) {
+	public String position(String a) {
 		String result = "";
+		
 		switch(a) {
 		case "사장": {
 			result = "사장의 연봉은 2억 입니다.";
