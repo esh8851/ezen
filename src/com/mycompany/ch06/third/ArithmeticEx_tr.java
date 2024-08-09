@@ -1,6 +1,6 @@
 package com.mycompany.ch06.third;
 
-public class Arithmetic_trEx {
+public class ArithmeticEx_tr {
 
 	public static void main(String[] args) {
 
@@ -12,8 +12,8 @@ public class Arithmetic_trEx {
 		int minus = arithmetic_tr.minus(3,1);
 		System.out.println(minus);
 		
-		int multibly = arithmetic_tr.multiply(3,7);
-		System.out.println(multibly);
+		int multiply = arithmetic_tr.multiply(3,7);
+		System.out.println(multiply);
 		
 		int divide = arithmetic_tr.divide(72,3);
 		System.out.println(divide);

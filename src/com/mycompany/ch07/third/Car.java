@@ -3,19 +3,19 @@ package com.mycompany.ch07.third;
 public class Car {
 	
 	public String name;
-	public String color;
+	public String model;
 	
-	public Car (String name, String color) {
+	public Car (String name, String model) {
 		this.name = name;
-		this.color = color;
+		this.model = model;
 	}
 	
 	public Car () {
 		
 	}
 	
-	public void sayCar () {
-		System.out.println("Car.name: " + name);
+	public void sayName () {
+		System.out.println("Car.name :" + name);
 	}
 
 }

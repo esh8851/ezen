@@ -3,27 +3,25 @@ package com.mycompany.ch07.second;
 public class ElectricCar extends Car{
 
 	@Override
-	public void powerOn() {
-		// TODO Auto-generated method stub
-		super.powerOn();
+	public void carPowerOn() {
+		System.out.println("ElectricCar.시동 켜기");
 	}
 
 	@Override
-	public void powerOff() {
-		// TODO Auto-generated method stub
-		super.powerOff();
+	public void carPowerOff() {
+		System.out.println("ElectricCar.시동 끄기");
 	}
 
 	@Override
-	public void window() {
-		// TODO Auto-generated method stub
-		super.window();
+	public void carAir() {
+		System.out.println("ElectricCar.에어컨 켜기");
 	}
 
 	@Override
-	public void air() {
-		// TODO Auto-generated method stub
-		super.air();
+	public void carWindow() {
+		System.out.println("ElectricCar.창문 열기");
 	}
+	
+	
 
 }

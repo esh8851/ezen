@@ -1,8 +1,8 @@
 package com.mycompany.ch07.first;
 
-public class Me extends ElectricCar{
+public class Me extends RadioCar{
 	
-	void aaa () {
+	public void aaa () {
 		System.out.println("iseonho");
 	}
 

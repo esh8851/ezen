@@ -7,7 +7,5 @@ public class ElectricCar extends Car{
 		// TODO Auto-generated method stub
 		
 	}
-	
-	
 
 }

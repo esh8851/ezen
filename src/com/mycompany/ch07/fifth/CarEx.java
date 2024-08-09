@@ -1,10 +1,10 @@
 package com.mycompany.ch07.fifth;
 
-public class RacingCar extends Car{
+public class CarEx extends Car{
 
 	public static void main(String[] args) {
 
-//		Car car = new Car();
+		System.out.println("iseonho");
 		
 	}
 

@@ -12,10 +12,14 @@ public class SecondEx {
 		
 		mobilePhone.phoneCall();
 		
-		RacingCar car = new RacingCar();
-
-		car.powerOn();
-		car.speedUp();
+//		-----------------------------------------------
+		
+		ElectricCar electricCar = new ElectricCar();
+		electricCar.carAir();
+		
+		SportsCar sportsCar = new SportsCar();
+		sportsCar.carWindow();
+		
 		
 	}
 
