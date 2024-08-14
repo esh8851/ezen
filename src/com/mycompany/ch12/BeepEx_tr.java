@@ -10,7 +10,6 @@ public class BeepEx_tr {
 		
 		for(int i=0; i<5; i++) {
 			toolkit.beep();
-			
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {

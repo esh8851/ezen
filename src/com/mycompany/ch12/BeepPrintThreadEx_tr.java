@@ -10,8 +10,8 @@ public class BeepPrintThreadEx_tr {
 //			
 //			@Override
 //			public void run() {
+//
 //				Toolkit toolkit = Toolkit.getDefaultToolkit();
-//				
 //				for(int i=0; i<5; i++) {
 //					toolkit.beep();
 //					try {
@@ -26,7 +26,7 @@ public class BeepPrintThreadEx_tr {
 //		
 //		thread.start();
 		
-		Runnable runnable = new BeepRunnable();
+		Runnable runnable = new BeepRunnable_tr();
 		Thread thread = new Thread(runnable);
 		
 		thread.start();
@@ -35,7 +35,7 @@ public class BeepPrintThreadEx_tr {
 			System.out.println("iseonho");
 			
 			try {
-				Thread.sleep(500);
+				thread.sleep(500);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
